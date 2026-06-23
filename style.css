@@ -70,3 +70,77 @@ button{
 .box p{
     color: #6b7280;
 }
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.hero{
+    background: #eef5fb;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.hro img{
+    width: 300px;
+    height: 220px;
+    object-fit: 42px;
+}
+.content{
+    display: flex;
+justify-content: space-between;
+gap: 50px;
+margin-top: 60px;
+}
+.left{
+    flex: 1;
+}
+.left h2{
+    color: 0b2c5f;
+    margin-bottom: 20px;
+}
+.left p{
+    margin-bottom:20px;
+    line-height:1.8;
+}
+
+.left ul li{
+    margin-bottom:15px;
+}
+
+.right{
+    flex:1;
+}
+
+form{
+    background:#003b8e;
+    padding:35px;
+    border-radius:15px;
+}
+
+form h2{
+    color:white;
+    text-align:center;
+    margin-bottom:30px;
+}
+
+input{
+    width:100%;
+    padding:14px;
+    margin-bottom:15px;
+    border:none;
+    border-radius:5px;
+}
+
+button{
+    padding:15px;
+    border:none;
+    border-radius:30px;
+    background:#10d8c4;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
