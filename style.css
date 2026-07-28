@@ -13,6 +13,7 @@ nav{
 
 .nav h2{
     color: #25d8f0;
+    font-size: 28px;
 }
 
 .nav li{
@@ -23,6 +24,7 @@ ul{
     display: flex;
     list-style: none;
     color: #6b7280;
+    font-size: 18px;
 }
 
 li{
@@ -30,16 +32,18 @@ li{
 }
 
 .hero h1{
-    font-size: 40px;
+    font-size: 56px;
     color: #25d8f0;
 }
 .hero p{
     color: #6b7280;
+    font-size: 29px;
 }
 
 .hero{
     text-align: center;
     padding: 80px 20px;
+        height: 300px;
 }
 
 button{
@@ -47,6 +51,7 @@ button{
     background: #25d8f0;
     border: none;
     padding: 10px 20px;
+    font-size: 26px;
 }
 
 .boxes{
@@ -63,6 +68,7 @@ button{
     padding: 20px;
     width: 200px;
     text-align: center;
+    border: 3px solid #05ddfa;
 }
 .box h3{
     color: #25d8f0;
@@ -143,4 +149,172 @@ button{
     color:white;
     font-size:16px;
     cursor:pointer;
+}
+
+
+
+@media (max-width: 1200px) {
+
+  .container{
+    width:95%;
+  }
+
+  .hero{
+    gap:20px;
+  }
+
+  .boxes{
+    gap:15px;
+  }
+
+  .box{
+    width:250px;
+  }
+
+}
+
+
+
+@media (max-width: 992px) {
+
+  nav{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  nav ul{
+    justify-content:center;
+    flex-wrap:wrap;
+    padding:0;
+  }
+
+  .hero{
+    flex-direction:column;
+    text-align:center;
+    height:auto;
+  }
+
+  .hero img{
+    width:300px;
+    max-width:100%;
+  }
+
+  .boxes{
+    flex-wrap:wrap;
+  }
+
+  .content{
+    flex-direction:column;
+  }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+  .hero h1{
+    font-size:36px;
+  }
+
+  .hero p{
+    font-size:20px;
+  }
+
+  .boxes{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .box{
+    width:90%;
+  }
+
+  button{
+    width:100%;
+  }
+
+}
+
+
+
+@media (max-width: 576px) {
+
+  nav h2{
+    font-size:22px;
+  }
+
+  nav ul{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  nav ul li{
+    margin:8px 0;
+  }
+
+  .hero{
+    padding:20px;
+  }
+
+  .hero h1{
+    font-size:28px;
+  }
+
+  .hero p{
+    font-size:16px;
+  }
+
+  .hero img{
+    width:100%;
+    height:auto;
+  }
+
+  .content{
+    gap:20px;
+  }
+
+  form{
+    padding:20px;
+  }
+
+  input,
+  button{
+    width:100%;
+    box-sizing:border-box;
+  }
+
+}
+
+
+
+@media (max-width:250px){
+
+  nav h2{
+    font-size:16px;
+  }
+
+  .hero h1{
+    font-size:18px;
+  }
+
+  .hero p{
+    font-size:12px;
+  }
+
+  .box{
+    width:100%;
+    padding:10px;
+  }
+
+  form{
+    padding:10px;
+  }
+
+  input,
+  button{
+    font-size:12px;
+    padding:8px;
+  }
+
 }
